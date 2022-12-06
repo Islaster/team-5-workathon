@@ -5,10 +5,10 @@ export default function NavBar() {
         <>
             <div className="nav-bar">
                 <ul>
-                    <li>NEED</li>
-                    <li>DONATE</li>
-                    <li>LOGIN</li>
-                    <li>LOGOUT</li>
+                    <li><img src="https://i.imgur.com/ivrifge.png"/></li>
+                    <li><img src="https://i.imgur.com/llbbv7m.png"/></li>
+                    <li><img src="https://i.imgur.com/90eBwhR.png"/></li>
+                    <li><img src="https://i.imgur.com/kfO66IB.png"/></li>
                 </ul>
             </div>
         </>
