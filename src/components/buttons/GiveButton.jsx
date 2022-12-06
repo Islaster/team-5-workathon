@@ -1,11 +1,9 @@
 import "./GiveButton.css"
 
-const GiveButton = (props) => {
+export default function GiveButton(props) {
     return (
         <div className="giveButtonComp">
-        <button className="giveButton">Give</button> 
+            <button className="giveButton">Give</button> 
         </div>
     )
 }
-
-export default GiveButton
