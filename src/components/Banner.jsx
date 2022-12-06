@@ -1,15 +1,16 @@
-import NeedButton from "./buttons/NeedButton";
-import GiveButton from "./buttons/GiveButton";
+// import NeedButton from "./buttons/NeedButton";
+// import GiveButton from "./buttons/GiveButton";
+import GetStartedBtn from "./buttons/GetStarted";
 import "./Banner.css";
 
-const Banner = (props) => {
+export default function Banner(props) {
     return (
         <div className="banner">
-        <NeedButton />
-        <GiveButton />
-        <h1 className="text">text</h1>
+            <div className="bannercontents">
+                <img src="https://i.imgur.com/7BEtBcP.png" alt="logo" />
+                <div className="imageplaceholder"></div>
+                <GetStartedBtn />
+            </div>
         </div>
     )
 }
-
-export default Banner
