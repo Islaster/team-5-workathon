@@ -30,6 +30,7 @@ const NewBank = (props) => {
 
     const handleChange = (e) => {
         setBankForm({ ...bankForm, [e.target.name]: e.target.value})
+        console.log(e.target)
     };
 
     // const createBank = async(bankData) => {
@@ -79,23 +80,19 @@ const NewBank = (props) => {
             )
         })
     }
-
-    const loading = () => {
-        return <h5>Loading...</h5>
-    }
     
     return (
        <section>
-        {bank ? loaded() : loading ()}
+        {bank ? loaded() : null}
         <section>
             <h3>Register New Bank</h3>
             <form onSubmit={handleSubmit}>
-                <input 
+            <input 
                 type="text"
                 required
                 value={bankForm.title}
-                name="name"
-                placeholder="Food Bank Name"
+                name="title"
+                placeholder="title"
                 onChange={handleChange}
                 />
                 <input 
@@ -108,13 +105,15 @@ const NewBank = (props) => {
                 />
                 <input 
                 type="tel"
+                required
                 value={bankForm.phone}
-                name="phoneNumber"
-                placeholder="(XXX) XXX-XXXX"
+                name="phone"
+                placeholder="(XXX)XXX-XXXX"
                 onChange={handleChange}
                 />
-                <input 
+               <input 
                 type="email"
+                required
                 value={bankForm.email}
                 name="email"
                 placeholder="email"
