@@ -1,7 +1,9 @@
+import "./GiveButton.css"
+
 const GiveButton = (props) => {
     return (
-        <div className="giveButton">
-        <button>Give</button> 
+        <div className="giveButtonComp">
+        <button className="giveButton">Give</button> 
         </div>
     )
 }

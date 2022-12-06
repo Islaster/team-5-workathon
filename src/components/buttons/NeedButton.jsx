@@ -1,7 +1,7 @@
 const NeedButton = (props) => {
     return (
-        <div className="needButton">
-        <button>Need</button>
+        <div className="needButtonComp">
+        <button className="needButton">Need</button>
         </div>
         )
 } 
