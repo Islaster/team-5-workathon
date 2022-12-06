@@ -5,10 +5,10 @@ export default function NavBar() {
         <>
             <div className="nav-bar">
                 <ul>
-                    <li><img src="https://i.imgur.com/ivrifge.png"/></li>
-                    <li><img src="https://i.imgur.com/llbbv7m.png"/></li>
-                    <li><img src="https://i.imgur.com/90eBwhR.png"/></li>
-                    <li><img src="https://i.imgur.com/kfO66IB.png"/></li>
+                    <li><img src="https://i.imgur.com/ivrifge.png" alt="home"/></li>
+                    <li><img src="https://i.imgur.com/18QlFRL.png" alt="events"/></li>
+                    <li><img src="https://i.imgur.com/90eBwhR.png" alt="benefits"/></li>
+                    <li><img src="https://i.imgur.com/A8NGURD.png" alt="favorites"/></li>
                 </ul>
             </div>
         </>
