@@ -1,8 +1,10 @@
+import "./GiveButton.css"
+
 const GiveButton = (props) => {
     return (
-        <>
-        <button>Give</button> 
-        </>
+        <div className="giveButtonComp">
+        <button className="giveButton">Give</button> 
+        </div>
     )
 }
 
