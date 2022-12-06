@@ -1,6 +1,6 @@
 import Banner from "../components/Banner"
 
-export default function Home(props) {
+export default function WelcomePage(props) {
     return (
         <>
             <Banner />
