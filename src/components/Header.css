@@ -1,11 +1,8 @@
 .header {
-    display: grid;
-    grid-template-rows: 3fr 1fr;
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
 }
-
-/* .header > .logo-title {
-    height: 5rem;
-} */
 
 .header > .logo-title {
     display: flex;
