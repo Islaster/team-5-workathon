@@ -5,10 +5,12 @@
     justify-content: center;
     align-items: center;
     bottom: 0;
-    left: 0;
     width: 100%;
     background-color: lightgray;
-    /* height: 2rem; */
+}
+
+.footer .footer-text {
+    width: 100%;
 }
 
 .footer .tiny-text, .footer .tiny-text a {

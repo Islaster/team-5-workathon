@@ -10,12 +10,19 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    padding-left: 0;
     padding: 1rem 0;
 }
 
 .nav-bar li {
     font-size: 1.25rem;
+    background-color: white;
+    border-radius: 50%;
+    height: 4.5rem;
+    width: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .25rem solid black;
 }
 
 .nav-bar li img {
