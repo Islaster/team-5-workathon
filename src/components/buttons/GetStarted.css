@@ -1,0 +1,18 @@
+.getstarted {
+    width: 25rem;
+    height: 3.5rem;
+    font-size: 2rem;
+    border-radius: 1rem 1rem;
+    border: none;
+    box-shadow: 0 .5rem rgba(100, 100, 100, .5);
+    font-weight: 700;
+}
+
+button.getstarted:active {
+    box-shadow: 0 .1rem rgba(100, 100, 100, .5);
+    transform: translateY(.4rem);
+}
+
+button.getstarted:hover {
+    background-color: rgb(227, 227, 227);
+}

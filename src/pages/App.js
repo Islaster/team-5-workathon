@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-
+import { useLocation } from "react-router-dom";
 import "./App.css";
 import Header from "../components/Header";
 import Main from "../components/Main";
@@ -7,11 +7,13 @@ import Main from "../components/Main";
 import Footer from "../components/Footer";
 
 export default function App() {
+  const { pathname } = useLocation();
+
   return (
     <div className="App">
-      <Header />
+      { pathname === "/" ? null : <Header />}
       <Main />
-      <Footer />
+      { pathname === "/" ? null : <Footer />}
     </div>
   );
 }
