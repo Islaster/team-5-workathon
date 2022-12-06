@@ -9,7 +9,6 @@ export default function Header() {
                     <img src="https://i.imgur.com/JD0CjdK.jpg" />
                     <h1 className="title">Title Placeholder</h1>
                 </div>
-                <NavBar />
             </div>
         </>
     )
