@@ -3,17 +3,17 @@ import { useLocation } from "react-router-dom";
 import "./App.css";
 import Header from "../components/Header";
 import Main from "../components/Main";
-
 import Footer from "../components/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   const { pathname } = useLocation();
 
   return (
     <div className="App">
-      { pathname === "/" ? null : <Header />}
+      {pathname === "/" ? null : <Header />}
       <Main />
-      { pathname === "/" ? null : <Footer />}
+      {pathname === "/" ? null : <Footer />}
     </div>
   );
 }
