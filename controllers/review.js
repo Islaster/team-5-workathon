@@ -1,4 +1,4 @@
-import Review from "../models/models";
+const Review = require("../models/company");
 
 module.exports = {
   create,

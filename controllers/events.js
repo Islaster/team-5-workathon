@@ -1,4 +1,4 @@
-import Event from "../models/models";
+const Event = require("../models/company");
 
 module.exports = {
   create,
