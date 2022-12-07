@@ -1,0 +1,74 @@
+{
+  "companies": [
+    {
+      "name": "San Francisco-Marin Food Bank",
+      "address": "900 Pennsylvania Ave, San Francisco, CA 94107",
+      "volunteers": 5,
+      "phone": "(415) 282-1900",
+      "email": ""
+    },
+    {
+      "name": "Youth with a Mission - Food Distribution Center",
+      "address": "357 Ellis St, San Francisco, CA 94102",
+      "volunteers": 10,
+      "phone": "(415) 885-6543",
+      "email": ""
+    },
+    {
+      "name": "The Food Pantry - Food Distribution Center",
+      "address": "500 De Haro St, San Francisco, CA 94107",
+      "volunteers": 2,
+      "phone": "(415) 255-8100",
+      "email": ""
+    },
+    {
+      "name": "Saint Agnes & Saint Ignatius Community Food Pantry - Food Distribution Center",
+      "address": "1025 Masonic Ave, San Francisco, CA 94117",
+      "volunteers": 5,
+      "phone": "(415) 487-8560",
+      "email": ""
+    },
+    {
+      "name": "Richmond Neighborhood Center - Food Distribution Center",
+      "address": "741 30th Ave, San Francisco, CA 94121",
+      "volunteers": 0,
+      "phone": "(415) 751-6600",
+      "email": ""
+    },
+    {
+      "name": "San Francisco City Impact Rescue Mission",
+      "address": "140 Turk St, San Francisco, CA 94102",
+      "volunteers": 5,
+      "phone": "(415) 441-1628",
+      "email": ""
+    },
+    {
+      "name": "Urban Services YMCA - Food Pantry",
+      "address": "751 Missouri St, San Francisco, CA 94107",
+      "volunteers": 5,
+      "phone": "",
+      "email": ""
+    },
+    {
+      "name": "Food Runners",
+      "address": "2579 Washington St, San Francisco, CA 94115",
+      "volunteers": 5,
+      "phone": "(415) 929-1866",
+      "email": ""
+    },
+    {
+      "name": "Old Presbyterian Church - Interfaith Food Pantry - Food Distribution Center",
+      "address": "1751 Sacramento St, San Francisco, CA 94109",
+      "volunteers": 5,
+      "phone": "(415) 776-5552",
+      "email": ""
+    },
+    {
+      "name": "Salvation Army - Kroc Center - Food Distribution Center",
+      "address": "240 Turk St, San Francisco, CA 94102",
+      "volunteers": 5,
+      "phone": "(415) 345-3400",
+      "email": ""
+    }
+  ]
+}
