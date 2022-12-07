@@ -6,7 +6,7 @@ const EventsList = (props) => {
         <>
         <body className="body">
 
-        <h1 style={{marginTop: "2rem"}}>12/08/2022 </h1>
+        <h1 className="event-date" style={{}}>12/08/2022 </h1>
 
     <Card className="event-card">
       <Card.Body className="event-body">
@@ -40,7 +40,7 @@ const EventsList = (props) => {
       </Card.Body>
     </Card>
 
-    <h1 style={{marginTop: "2rem"}}>12/08/2022</h1>
+    <h1 className="event-date" style={{marginTop: "2rem"}}>12/08/2022</h1>
 
     <Card className = "event-card">
       <Card.Body className="event-body">
