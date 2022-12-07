@@ -7,6 +7,7 @@ export default function Show(props) {
         <>
        <Card className="showPage-Card">
         <Card.Header>Food Bank</Card.Header>
+        <Card.Img variant="top" src="https://developers.google.com/static/maps/images/landing/android_codelab.png" />
         <Card.Body>
             <Card.Title>SF - Marin Food Bank</Card.Title>
             <Card.Text>
@@ -14,8 +15,6 @@ export default function Show(props) {
             </Card.Text>
         </Card.Body>
        </Card>
-            
-        <h1>Show Page</h1>
 
 
         </>
