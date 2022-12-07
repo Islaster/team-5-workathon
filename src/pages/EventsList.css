@@ -10,7 +10,7 @@
 }
 
 .event-date{
-    border-top: 0.25rem solid black;
+    border-top: 0.25rem solid gray;
     margin: 2rem;
     padding-top: 1rem;
 }
@@ -23,6 +23,7 @@
     display: flex;
     justify-content: right;
     align-items: center;
+
 }
 
 .details-card{
