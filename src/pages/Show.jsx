@@ -1,19 +1,21 @@
 import Button from 'react-bootstrap/Button'
-import Badge from 'react-bootstrap/Badge'
+import Image from 'react-bootstrap/Image'
+import Card from 'react-bootstrap/Card'
 
 export default function Show(props) {
     return (
         <>
-        <img src="..../images/sfMarinFoodMap.png"/>
+       <Card className="showPage-Card">
+        <Card.Header>Food Bank</Card.Header>
+        <Card.Body>
+            <Card.Title>SF - Marin Food Bank</Card.Title>
+            <Card.Text>
+            900 Pennsylvania Ave, San Francisco, CA 94107
+            </Card.Text>
+        </Card.Body>
+       </Card>
+            
         <h1>Show Page</h1>
-        <div>
-  <h1>
-    Example heading{' '}
-    <Badge bg="secondary" as="Button">
-      New
-    </Badge>
-  </h1>
-</div>
 
 
         </>
