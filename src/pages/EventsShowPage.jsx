@@ -1,12 +1,10 @@
-import Button from 'react-bootstrap/Button'
-import Image from 'react-bootstrap/Image'
 import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
 import ListGroup from 'react-bootstrap/ListGroup'
 import Carousel from 'react-bootstrap/Carousel'
 import "./EventsPage.css"
 
-export default function EventsPage(props) {
+export default function EventsShowPage(props) {
     return (
         <>
        <Card className="showPage-Card">
