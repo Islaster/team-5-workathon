@@ -20,7 +20,7 @@ const Main = (props) => {
                 <Route path="/favorites" element={<FavoritesPage />} />
                 <Route path="/show" element={<Show />} />
                 <Route path="/create" element={<NewBank />} />
-                <Route path="events" element={<EventsList />} />
+                <Route path="/events" element={<EventsList />} />
             </Routes>
         </main>
     )

@@ -18,3 +18,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'galyon-boldbold';
+  src: url('./fonts/galyon-bold-webfont.woff2') format('woff2'),
+       url('./fonts/galyon-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
