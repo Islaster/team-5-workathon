@@ -1,11 +1,28 @@
+.body{
+    font-family: 'galyon-boldbold';
+}
+
 .event-card {
     text-align: left;
+    background-color: red;
+    color: #0B2156;
+    margin: 2rem; 
+}
+
+.event-body {
+    background-color: lightgray;
 }
 
 .fav-icon {
     justify-content: right;
     display: inline;
+}
 
+.details-card{
+    color: red;
+}
 
+.blockquote-footer{
+    text-decoration: underline; 
 }
 
