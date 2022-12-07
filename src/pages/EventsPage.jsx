@@ -70,6 +70,7 @@ export default function EventsPage(props) {
                     <div className="fw-bold">Feedback</div>
                     Let us know what you think!
                     </div>
+
             </ListGroup.Item>
         </ListGroup>
         <Carousel>
