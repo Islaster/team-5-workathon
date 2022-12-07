@@ -1,6 +1,6 @@
 .nav-bar {
     text-align: center;
-    background-color: lightgray;
+    background-color: #f4b72f;
 }
 
 .nav-bar > ul {
@@ -23,6 +23,7 @@
     justify-content: center;
     align-items: center;
     border: .25rem solid black;
+    background-color: #f4b72f;
 }
 
 .nav-bar li img {
