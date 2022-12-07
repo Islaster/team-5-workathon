@@ -33,7 +33,7 @@ export default function EventsShowPage(props) {
                 <Card.Text>8:00AM - 5:00PM</Card.Text>
             </Card>
             <Card style={{width: "30%", display: "inline-block"}}>
-                <Card.Img className='card-heart-icon' style={{width: "4rem"}} Variant="top" src="https://t4.ftcdn.net/jpg/01/25/83/03/240_F_125830316_m9Grtzjlt2I5Gp4qpDQq5G5BSXR5d9ZF.jpg" />
+                <Card.Img className='card-heart-icon' style={{width: "4rem"}} Variant="top" src="https://cdn-icons-png.flaticon.com/128/1000/1000621.png" />
                 <Card.Title>Save</Card.Title>
                 <Card.Text></Card.Text>
             </Card>
