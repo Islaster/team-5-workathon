@@ -9,6 +9,12 @@
     margin: 2rem; 
 }
 
+.event-date{
+    border-top: 0.25rem solid black;
+    margin: 2rem;
+    padding-top: 1rem;
+}
+
 .event-body {
     background-color: lightgray;
 }
