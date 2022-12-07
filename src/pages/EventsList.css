@@ -10,7 +10,7 @@
 }
 
 .event-date{
-    border-top: 0.25rem solid black;
+    border-top: 0.25rem solid gray;
     margin: 2rem;
     padding-top: 1rem;
 }
@@ -20,8 +20,9 @@
 }
 
 .fav-icon {
-    justify-content: right;
-    display: inline;
+    display: flex;
+    flex-direction: row-reverse;
+
 }
 
 .details-card{
