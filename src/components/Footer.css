@@ -1,20 +1,21 @@
 .footer {
-    position: fixed;
-    display: grid;
-    grid-template-rows: auto auto;
-    justify-content: center;
-    align-items: center;
-    bottom: 0;
-    width: 100%;
-    background-color: #f4b72f;
+  position: fixed;
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  background-color: #f4b72f;
 }
 
 .footer .footer-text {
-    width: 100%;
+  width: 100%;
 }
 
-.footer .tiny-text, .footer .tiny-text a {
-    font-size: .8rem;
-    text-decoration: none;
-    color: black;
+.footer .tiny-text,
+.footer .tiny-text a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: black;
 }

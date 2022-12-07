@@ -1,16 +1,16 @@
 .banner {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bannercontents {
-    display: absolute;
-    top: 24.1rem;
-    margin: 0 2rem;
+  display: absolute;
+  top: 24.1rem;
+  margin: 0 2rem;
 }
 
 .banner .bannercontents img {
-    width: 95%;
+  width: 95%;
 }

@@ -7,22 +7,22 @@
 body {
   margin: 0;
   padding-bottom: 10.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 @font-face {
-  font-family: 'galyon-boldbold';
-  src: url('./fonts/galyon-bold-webfont.woff2') format('woff2'),
-       url('./fonts/galyon-bold-webfont.woff') format('woff');
+  font-family: "galyon-boldbold";
+  src: url("./fonts/galyon-bold-webfont.woff2") format("woff2"),
+    url("./fonts/galyon-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

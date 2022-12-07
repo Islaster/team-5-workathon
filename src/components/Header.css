@@ -1,28 +1,32 @@
-.navy, .red, .green {
-    height: 100%;
-    width: 100%;
-    border-radius: 0 0 2rem 2rem;
-    color: white;
-    font-family: 'galyon-boldbold';
-    height: 10.7rem;
-    border-radius: 0 0 2rem 2rem;
+.navy,
+.red,
+.green {
+  height: 100%;
+  width: 100%;
+  border-radius: 0 0 2rem 2rem;
+  color: white;
+  font-family: "galyon-boldbold";
+  height: 10.7rem;
+  border-radius: 0 0 2rem 2rem;
 }
 
-.navy > h1, .red > h1,  .green > h1 {
-    position: absolute;
-    width: 227px;
-    height: 25px;
-    top: 65px;
+.navy > h1,
+.red > h1,
+.green > h1 {
+  position: absolute;
+  width: 227px;
+  height: 25px;
+  top: 65px;
 }
 
 .navy {
-    background-color: #0B2156;
+  background-color: #0b2156;
 }
 
 .red {
-    background-color: #D82B44;
+  background-color: #d82b44;
 }
 
 .green {
-    background-color: #219B8C;
+  background-color: #219b8c;
 }
