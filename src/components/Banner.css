@@ -1,15 +1,3 @@
-/* .banner {
-    display: flex;
-    background-image: url("https://thumbs.dreamstime.com/b/giving-donations-charity-foundation-support-concept-75686415.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 58rem;
-    height: 36rem;
-}
-
-.text {
-    font-size: 3.3rem;
-} */
 .banner {
     height: 100vh;
     display: flex;
@@ -18,19 +6,11 @@
 }
 
 .bannercontents {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+    display: absolute;
+    top: 24.1rem;
+    margin: 0 2rem;
 }
 
 .banner .bannercontents img {
     width: 95%;
-}
-
-.banner > .bannercontents > .imageplaceholder {
-    height: 15rem;
-    width: 25rem;
-    border: 1px black solid;
-    margin: 2rem;
 }
