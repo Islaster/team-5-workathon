@@ -1,4 +1,4 @@
-import { Bank } from "../models/models";
+const Bank = require("../models/company");
 
 module.exports = {
   create,
